@@ -1,2 +1,1 @@
-# tribute-page
 # quote-generator
