@@ -1,0 +1,18 @@
+body {
+  background-color: #87A07E;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+
+  font-family: "Playfair Display", serif;
+  }
+.cont {
+  padding: 3em
+}
+
+#mes {
+  background-color:#D7E0D3;
+    padding: 1em;
+}
