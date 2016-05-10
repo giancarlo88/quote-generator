@@ -10,13 +10,17 @@ font-family: "Playfair Display", serif;
   }
 
 #button {
-    padding: 20% 0 0 0;
+    padding: 10% 0 0 0;
     height: 40%;
     width: 100%;
     text-align: center;
-    vertical-align: bottom;
-            
 
+}
+
+.btn-lg {
+    width: 10em;
+    height: 3em;
+    font-size: 1.5em;
 }
 
 
