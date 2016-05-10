@@ -1,18 +1,66 @@
+html, body {
+    height: 100%;
+}
+
+
 body {
   background-color: #87A07E;
-  text-align: center;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-
-
-  font-family: "Playfair Display", serif;
+font-family: "Playfair Display", serif;
+    font-size: 125%
   }
-.cont {
-  padding: 3em
+
+#button {
+    padding: 20% 0 0 0;
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    vertical-align: bottom;
+            
+
 }
+
+
+.contentwrapper {
+    padding: 0% 5% 1% 5%;
+    width: 100%;
+    text-align: center;   
+    vertical-align: middle;
+    
+        
+}
+
+.content {
+    padding: 2%;
+    max-width: 80%;
+    max-height: 50%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
 
 #mes {
   background-color:#D7E0D3;
-    padding: 1em;
 }
+
+
+#tweet {
+    position: fixed;
+    padding: 1% 0 0 0;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    vertical-align: bottom;
+    min-height: 25%;
+    }
+
+
+
+#tweetbutton2{
+    padding: 15% 0 0 0;
+    height:50%;
+    width: 100%;
+    text-align: center;
+    vertical-align: bottom; 
+}
+

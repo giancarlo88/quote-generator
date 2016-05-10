@@ -1,10 +1,39 @@
-<div class="cont">
-  <div class="cont">
-    <button class="btn btn-lg" id="quoteButton">Get Quote</button>
-  </div>
-  <div class="cont">
-    <div id="mes" class="card"></div>
-  </div>
-  <div class="cont" id="tweet">
-    <button class="btn" id="tweetButton"><span class= "fa fa-lg fa-twitter"><br></span> Tweet This Quote</button></div></div>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+   
+        
+        <div id="button"><button class="btn btn-lg" id="quoteButton">Get Quote</button></div>
+     <div class="contentwrapper">
+         <div id="mes" class="content card"></div></div>
+    
+    <div id ="tweet">
+        <div id="tweet1" class = "hidden-sm-down">
+            <button class="btn" id="tweetButton1"><span class="fa fa-lg fa-twitter"><br></span> Tweet This Quote</button>
+        </div>
+    <div id="tweet2" class = "hidden-md-up">
+            <button class="btn" id="tweetButton2"><span class="fa fa-lg fa-twitter"><br></span> Tweet This Quote</button>
+        </div>
+    </div>
+    
+    
+
+
+
+</body>
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="js/index.js"></script>
+
+</html>
