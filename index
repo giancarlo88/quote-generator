@@ -1,0 +1,10 @@
+<div class="cont">
+  <div class="cont">
+    <button class="btn btn-lg" id="quoteButton">Get Quote</button>
+  </div>
+  <div class="cont">
+    <div id="mes" class="card"></div>
+  </div>
+  <div class="cont" id="tweet">
+    <button class="btn" id="tweetButton"><span class= "fa fa-lg fa-twitter"><br></span> Tweet This Quote</button></div></div>
+</div>
